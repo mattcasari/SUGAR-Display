@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Ignore most things in the bin files 
+bin/bootloader/*
+!bin/bootloader/bootloader.bin
+
+# Don't include the stubs
+typings
