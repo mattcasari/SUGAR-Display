@@ -177,3 +177,6 @@ bin/bootloader/*
 
 # Don't include the stubs
 typings
+
+# Don't include my "archive" files
+archive
